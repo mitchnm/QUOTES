@@ -9,7 +9,7 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes = [
-    new Quote(1, 'Our greatest glory is not in never falling, but in rising every time we fall.','~ Confucius' ,new Date(2019,3,28,1756)),
+    new Quote(1, 'Our greatest glory is not in never falling, but in rising every time we fall.','~ Confucius' ,new Date(2019,3,28)),
     new Quote(2, 'Everything you’ve ever wanted is on the other side of fear.','~ George Addair',new Date(2019,10,14)),
     new Quote(3, 'Hardships often prepare ordinary people for an extraordinary destiny.','~ C.S. Lewis',new Date(2019,10,14)),
     new Quote(4, 'Your true success in life begins only when you make the commitment to become excellent at what you do.','~ Brian Tracy',new Date(2019,10,14)),
