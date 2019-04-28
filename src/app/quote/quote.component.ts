@@ -24,7 +24,7 @@ export class QuoteComponent implements OnInit {
     new Quote(13,'If you don’t like something, change it. If you can’t change it, change your attitude.','~ Maya Angelou',new Date(2019,10,14)), 
     new Quote(14,'Staying positive does not mean that things will turn out okay. Rather it is knowing that you will be okay no matter how things turn out.','~ Unknown',new Date(2019,10,14)),
     new Quote(15,'You control your future, your destiny. What you think about comes about. By recording your dreams and goals on paper, you set in motion the process of becoming the person you most want to be. Put your future in good hands – your own.','~ Mark Victor Hansen',new Date(2019,10,14)),
-
+    new Quote(16,'You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, ‘I lived through this horror. I can take the next thing that comes along.','~ Eleanor Roosevelt' ,new Date(2019,10,14))
  ]
  toogleDetails(index){
   this.quotes[index].showDescription = !this.quotes[index].showDescription;
