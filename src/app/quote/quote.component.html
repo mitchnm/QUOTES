@@ -12,12 +12,14 @@
         <h4>
           <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
         </h4>
-      </div>
+        </div>
+        
     </div>
     
+    
 
-    <div style="text-align: center;" >
-      <app-quote-form></app-quote-form>
+    <div style="text-align: center;" class="col-md-12" >
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
   </div>
 </body>

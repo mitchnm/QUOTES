@@ -44,3 +44,6 @@ button{
 .jumbotron{
   background-color: purple;
 }
+form{
+  margin: 0 auto;
+}
