@@ -47,3 +47,6 @@ button{
 form{
   margin: 0 auto;
 }
+#ngamia{
+  border: 2px solid black;
+}
