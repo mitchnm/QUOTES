@@ -1,20 +1,17 @@
 <body>
+    <h1 style="text-align: center"><u>QUOTES.</u></h1><br>
   <div class="container">
-    <h1 class="jumbotron" style="text-align: center"><u>QUOTES.</u></h1><br>
-
-
-
     <div class="row">
       <div *ngFor='let quote of quotes;let i = index' class="col-md-6" id="ngamia"><br>
         <h3>{{quote.name}}</h3>
-        <button class="btn btn-warning " (click)='toogleDetails(i)'>⇩</button>
+        <button class="btn btn-primary" (click)='toogleDetails(i)'>⇩</button>
 
         <div style="float: right" id="number">{{quote.completeDate|dateCount}}</div>
 
         <h4>
-          <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
+          <app-quote-details *ngIf="quote.showDescription" [quote]='quote' style="color:cyan;"></app-quote-details>
         </h4>
-        <like-box></like-box> 
+        <like-box></like-box>
 
       </div>
     </div>

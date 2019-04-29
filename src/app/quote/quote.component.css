@@ -5,26 +5,28 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: purple;
+  background-color: transparent;
   text-decoration: none;
   font-size: large;
 }
 body {
-  background-image: url("images.jpeg");
+  background-image: url("https://i.pinimg.com/564x/40/c7/12/40c712e5f3833bc38dbe1213da27069e.jpg");
   width: 100%;
   height: 100%;
   background-attachment: fixed;
   position: relative;
+  background-position: cover;
   width: 100%;
   height: 100%;
   color: black;
   text-decoration: none;
   font-size: large;
+
 }
 h1{
-  font-size: 300%;
+  font-size: 500%;
   font-family: sans-serif;
-  color: chocolate;
+  color: gray;
 }
 h3{
   font-size: 150%;
@@ -37,9 +39,7 @@ h3{
   color: gold;
 }
 button{
-  width: 1%;
-  height: 10%;
-  font-size: 100%;
+  font-size: 20px;
   text-align: center;
 }
 .jumbotron{
@@ -49,6 +49,6 @@ form{
   margin: 0 auto;
 }
 #ngamia{
-  border: 2px solid black;
+  border: 2px solid whitesmoke;
   padding-bottom: 0px;
 }
