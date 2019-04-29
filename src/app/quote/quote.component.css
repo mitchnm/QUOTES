@@ -39,14 +39,16 @@ h3{
 button{
   width: 1%;
   height: 10%;
-  font-size: 70%;
+  font-size: 100%;
+  text-align: center;
 }
 .jumbotron{
-  background-color: purple;
+  background-color: black ;
 }
 form{
   margin: 0 auto;
 }
 #ngamia{
   border: 2px solid black;
+  padding-bottom: 0px;
 }
